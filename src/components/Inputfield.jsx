@@ -56,8 +56,8 @@ export default function Inputfield() {
 
     return (
         <>
-            <div className="container h-[10vh] mx-auto py-4">
-                <form onSubmit={formik.handleSubmit} className="flex gap-2">
+            <div className="container mx-auto p-4 bg-white shrink-0">
+                <form onSubmit={formik.handleSubmit} className=" flex gap-2">
                     <input
                         type="text"
                         name="message"

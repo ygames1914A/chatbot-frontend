@@ -6,9 +6,11 @@ import Inputfield from "./components/Inputfield";
 function App() {
     return (
         <>
-            <Toaster/>
-            <Chatfield />
-            <Inputfield />
+            <Toaster />
+            <div className="h-svh flex flex-col">
+                <Chatfield />
+                <Inputfield />
+            </div>
         </>
     );
 }

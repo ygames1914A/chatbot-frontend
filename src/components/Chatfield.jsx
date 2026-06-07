@@ -26,7 +26,7 @@ export default function Chatfield() {
 
     return (
         <>
-            <div className="p-4 container mx-auto flex flex-col gap-y-4 h-[90vh] overflow-scroll">
+            <div className="container mx-auto overflow-y-auto flex-1 p-4 flex flex-col gap-y-4">
                 {mergedArray.map((element, index) => {
                     // ${element.role === "user" ? "float-right":null}
                     // console.log(element);
